@@ -1,11 +1,11 @@
-# Projekt-MB30
+# Projekt-Jagr68
 
 Ta repozitorij vsebuje projekt pri predmetu Programiranje 1.
 
-Namen projekta je zajem spletne strani https://www.nhl.com/player/martin-brodeur-8455710, 
-kjer bomo dobili podatke o legendarnem vratarju lige NHL, Martinu Brodeurju in s pomoËjo le 
+Namen projekta je zajem spletne strani https://www.hockey-reference.com/players/j/jagrja01/gamelog/1991, 
+kjer bomo dobili podatke o legendarnem hokejistu lige NHL, Jaromirju Jagru in s pomoƒçjo le 
 teh naredili kratko analizo njegove kariere.
 
-Radovljica, 23.10.2016
+Ljubljana, 5.10.2017
 
 
