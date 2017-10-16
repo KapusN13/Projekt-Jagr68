@@ -5,12 +5,12 @@ pattern = re.compile(
     r'<tr id="gamelog\.(?P<st_tekme>\d+)" >.*?'
     r'data-stat="age" >(?P<starost>\d{2}-\d{3})<.*?'
     r'data-stat="opp_id" ><a href="/teams/(?P<nasprotnik>\D{3})/\d{4}.html">.*?'
-    r'data-stat="goals" >(?P<zadetki>\d)<.*?'
-    r'data-stat="assists" >(?P<asistence>\d)<.*?'
-    r'data-stat="points" >(?P<tocke>\d)<.*?'
-    r'data-stat="plus_minus" >(?P<plus_minus>-?\d)<.*?'
-    r'data-stat="pen_min" >(?P<kazni>\d)<.*?'
-    r'data-stat="shots" >(?P<streli>\d)<.*?'
+    r'data-stat="goals" >(?P<zadetki>\d+)<.*?'
+    r'data-stat="assists" >(?P<asistence>\d+)<.*?'
+    r'data-stat="points" >(?P<tocke>\d+)<.*?'
+    r'data-stat="plus_minus" >(?P<plus_minus>-?\d+)<.*?'
+    r'data-stat="pen_min" >(?P<kazni>\d+)<.*?'
+    r'data-stat="shots" >(?P<streli>\d+)<.*?'
     ,
     flags=re.DOTALL)
     
